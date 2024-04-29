@@ -1,0 +1,402 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+.close {
+  display: none;
+}
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.header {
+  background-color: #1c1e53;
+  padding-top: 16px;
+  padding-bottom: 130px;
+}
+ul {
+  list-style: none;
+  display: flex;
+  gap: 32px;
+  margin-left: auto;
+  cursor: pointer;
+  opacity: 0.8;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.header-top {
+  margin-bottom: 126px;
+  display: flex;
+  justify-content: space-between;
+  height: 92px;
+  align-items: center;
+}
+.ul li {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+.btn {
+  border-radius: 41px;
+  border: 2px solid rgba(244, 246, 252, 0.2);
+  background: transparent;
+  padding: 16px 48px;
+  cursor: pointer;
+  color: #fff;
+  margin-left: 50px;
+}
+.btn:hover {
+  opacity: 0.9;
+  position: relative;
+  top: -1px;
+}
+/* header inner */
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+}
+.header-info {
+  height: 582px;
+}
+.header-title {
+  margin-bottom: 24px;
+
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 74px;
+}
+.header-text {
+  margin-bottom: 48px;
+  width: 562px;
+}
+
+.header-btn {
+  display: inline-block;
+  border-radius: 41px;
+  background: #fcd980;
+
+  padding: 13px 50px;
+  margin-right: 40px;
+
+  color: #1b1c2b;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.7;
+}
+.header-link {
+  line-height: 1.7;
+  position: relative;
+}
+.header-link::after {
+  position: absolute;
+  content: '';
+  width: 25px;
+  height: 12px;
+  background-image: url(/source/img/Arrow.png);
+  bottom: 5px;
+  right: -39px;
+}
+.header-img {
+  margin-top: 15px;
+}
+/* ++++++++++++++++++++++++++++++++++++++++++++SECTION WORK++++++++++++*/
+.section-work {
+  padding-top: 130px;
+  padding-bottom: 130px;
+  color: #282938;
+  background: #f4f6fc;
+}
+.section-work-row {
+  display: flex;
+  gap: 142px;
+}
+
+.work-title {
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.3;
+  margin-bottom: 16px;
+}
+.work-info {
+  margin-bottom: 16px;
+  width: 405px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.7;
+  opacity: 0.7;
+}
+.work-link {
+  color: #2405f2;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.7;
+  position: relative;
+}
+.work-link::after {
+  position: absolute;
+  content: '';
+  width: 25px;
+  height: 12px;
+  background-image: url(/source/img/Arrow\ 2.png);
+  bottom: 5px;
+  right: -39px;
+}
+.section-work-cards {
+  display: flex;
+
+  flex-wrap: wrap;
+  row-gap: 48px;
+  column-gap: 25px;
+}
+.img-cards {
+  display: block;
+  margin-bottom: 16px;
+  position: relative;
+}
+.img-cards::after {
+  position: absolute;
+  content: '01';
+  width: 25px;
+  height: 10px;
+
+  top: 8px;
+  left: 18px;
+  color: white;
+  font-size: 18px;
+}
+.img-cards--2::after {
+  position: absolute;
+  content: '02';
+  width: 25px;
+  height: 10px;
+
+  top: 8px;
+  left: 18px;
+  color: white;
+  font-size: 18px;
+}
+.img-cards--3::after {
+  position: absolute;
+  content: '03';
+  width: 25px;
+  height: 10px;
+
+  top: 8px;
+  left: 18px;
+  color: white;
+  font-size: 18px;
+}
+.img-cards--4::after {
+  position: absolute;
+  content: '04';
+  width: 25px;
+  height: 10px;
+
+  top: 8px;
+  left: 18px;
+  color: white;
+  font-size: 18px;
+}
+.cart-title {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+}
+.card-info {
+  width: 303px;
+  opacity: 0.7;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.7;
+}
+/* +++++++++++++++++++++++++PROJECT+++++++++++++++++++++++++++++++++++++++++++++ */
+.projects {
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
+.projects-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 64px;
+}
+.projects-row a {
+  color: #282838;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  display: inline-block;
+  position: relative;
+  /* padding-right: 40px */
+  transform: translate(-45px);
+}
+.projects-row a::after {
+  position: absolute;
+  content: '';
+  width: 25px;
+  height: 12px;
+  background-image: url(/source/img/Arrow\ black.jpg);
+  bottom: 8px;
+  right: -38px;
+}
+
+.projects-title {
+  color: #282838;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.projects-cards-row {
+  display: flex;
+  justify-content: space-between;
+}
+.card-01 {
+  position: relative;
+}
+.card-01::after {
+  position: absolute;
+  content: '';
+  left: 0;
+  top: 0;
+  right: 448px;
+  bottom: 7px;
+  background: linear-gradient(
+    329deg,
+    #1c1e53 -10.96%,
+    rgba(28, 30, 83, 0.42) 103.96%
+  );
+}
+.card-01-title {
+  position: absolute;
+  left: 48px;
+  top: 312px;
+  width: 300px;
+  z-index: 1;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: white;
+  cursor: pointer;
+}
+.card-01 p {
+  position: absolute;
+  color: white;
+  left: 48px;
+  top: 403px;
+  z-index: 10;
+  opacity: 0.8;
+  width: 300px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+}
+.card-01-link {
+  position: absolute;
+  z-index: 10;
+
+  left: 48px;
+  top: 498px;
+  color: #fcd980;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 1.7;
+  font-weight: 500;
+}
+.card-01-link:after {
+  position: absolute;
+  content: '';
+  width: 25px;
+  height: 12px;
+  background-image: url(/source/img/Arrow\ gold1.png);
+  bottom: 8px;
+  right: -38px;
+  z-index: 10;
+}
+
+.card-02 {
+  position: relative;
+}
+.card-02::after {
+  position: absolute;
+  content: '';
+  left: 7px;
+  top: 0;
+  right: 0;
+  bottom: 5px;
+  background: linear-gradient(
+    329deg,
+    #1c1e53 -10.96%,
+    rgba(28, 30, 83, 0.42) 103.96%
+  );
+}
+.card-02-title {
+  position: absolute;
+  left: 65px;
+  top: 129px;
+  width: 292px;
+  z-index: 1;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: white;
+  cursor: pointer;
+}
+.card-02-link {
+  position: absolute;
+  z-index: 1;
+  left: 65px;
+  top: 213px;
+  color: #fcd980;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 1.7;
+  font-weight: 500;
+}
+.card-02-link::after {
+  position: absolute;
+  content: '';
+  width: 25px;
+  height: 12px;
+  background-image: url(/source/img/Arrow\ gold1.png);
+  bottom: 8px;
+  right: -38px;
+  z-index: 10;
+}
+.card-03 {
+  padding-top: 25px;
+  margin-left: 7px;
+}
+@media screen and (max-width: 1300px) {
+  .projects-cards-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .cards-02-03 {
+    display: flex;
+    justify-content: space-between;
+    width: 843px;
+  }
+}
