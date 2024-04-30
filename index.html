@@ -11,10 +11,12 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet" />
+    <link rel="stylesheet" href="source/libs/owlcarusel/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="source/libs/owlcarusel/assets/owl.theme.default.css">
 </head>
 
 <body>
-  <header class="header ">
+  <header class="header close">
     <div class="container">
       <div class="header-top">
         <a href="#"><img src="source/img/Logo (1).png" alt="" /></a>
@@ -50,7 +52,7 @@
       </div>
     </div>
   </header>
-  <section class="section-work ">
+  <section class="section-work close">
     <div class="container">
       <div class="section-work-row">
         <div class="section-work-content">
@@ -117,7 +119,7 @@
     </div>
   </section>
 
-  <section class="projects">
+  <section class="projects close">
     <div class="container">
       <div class="projects-row">
         <h2 class="projects-title">View our projects</h2>
@@ -146,7 +148,7 @@
     </div>
   </section>
 
-  <section class="design">
+  <section class="design close">
     <div class="container desing-container">
       <p class="design-p">Features</p>
       <h2 class="design-h2">Design that solves problems, one product at a time</h2>
@@ -200,9 +202,10 @@
         </div>
         <div class="slider-right-block">
 
-          <div class="owl-carusel">
+          <div class="owl-carousel owl-theme">
+
             <div class="slider-item">
-              <div class="slider-item-title">"The best agency we’ve worked with so far. They understand our product and
+              <div class="slider-item-title">"The best agency weve worked with so far. They understand our product and
                 are able to add new features with a great focus."</div>
               <div class="slider-info">
                 <img class="avatar" src="source/img/slider/woman-in-collared-shirt-774909.png" alt="avatar">
@@ -213,51 +216,36 @@
                </div>
               </div>
             </div>
-            <!-- <div class="slider-item">
-              <div class="slider-item-title">"The best agency we’ve worked with so far. They understand our product and
-                are able to add new features with a great focus."</div>
-              <div class="slider-item-info">
-                <img src="" alt="">
-                <div class="slider-name">Jenny Wilson</div>
-                <span>Vice President</span>
-              </div>
-            </div>
-            <div class="slider-item">
-              <div class="slider-item-title">"The best agency we’ve worked with so far. They understand our product and
-                are able to add new features with a great focus."</div>
-              <div class="slider-item-info">
-                <img src="" alt="">
-                <div class="slider-name">Jenny Wilson</div>
-                <span>Vice President</span>
-              </div>
-            </div> -->
-          </div>
-            <div class="arrow-left">
-              <svg 
-              width="108" height="48" viewBox="0 0 108 48" fill="none"
-                xmlns="http://www.w3.org/2000/svg">
-                <!-- <ellipse cx="83.0997" cy="24" rx="24.0997" ry="24" fill="#5239FA" /> -->
-                <!-- <path d="M77.4141 35L76 31.7805L85.0305 24.0894L76 16.2195L77.4141 13L89 23.374V25.1626L77.4141 35Z"
-                  fill="white" /> -->
-                <ellipse cx="24.0995" cy="24" rx="24.0997" ry="24" transform="rotate(-180 24.0995 24)" fill="white" />
-                <path opacity="0.6"
-                  d="M28.5859 13L30 16.2195L20.9695 23.9106L30 31.7805L28.5859 35L17 24.626L17 22.8374L28.5859 13Z"
-                  fill="#282938" />
-              </svg>
-            </div>
-            <div class="arrow-right">
-              <svg width="108" height="48" viewBox="0 0 108 48" fill="none"
-                xmlns="http://www.w3.org/2000/svg">
-                <ellipse cx="83.0997" cy="24" rx="24.0997" ry="24" fill="#5239FA" />
-                <path d="M77.4141 35L76 31.7805L85.0305 24.0894L76 16.2195L77.4141 13L89 23.374V25.1626L77.4141 35Z"
-                  fill="white" />
-                <!-- <ellipse cx="24.0995" cy="24" rx="24.0997" ry="24" transform="rotate(-180 24.0995 24)" fill="white" /> -->
-                <!-- <path opacity="0.6"
-                  d="M28.5859 13L30 16.2195L20.9695 23.9106L30 31.7805L28.5859 35L17 24.626L17 22.8374L28.5859 13Z"
-                  fill="#282938" /> -->
-              </svg>
 
+            <div class="slider-item">
+              <div class="slider-item-title">"The best agency weve worked with so far. They understand our product and
+                are able to add new features with a great focus."</div>
+              <div class="slider-info">
+                <img class="avatar" src="source/img/slider/woman-in-collared-shirt-774909.png" alt="avatar">
+               <div>
+
+                 <span class="slider-name">Jenny Wilson</span>
+                 <p class="avatar-info" >Vice President</p>
+               </div>
+              </div>
             </div>
+
+            <div class="slider-item">
+              <div class="slider-item-title">"The best agency weve worked with so far. They understand our product and
+                are able to add new features with a great focus."</div>
+              <div class="slider-info">
+                <img class="avatar" src="source/img/slider/woman-in-collared-shirt-774909.png" alt="avatar">
+               <div>
+
+                 <span class="slider-name">Jenny Wilson</span>
+                 <p class="avatar-info" >Vice President</p>
+               </div>
+              </div>
+            </div>
+
+          </div>
+            <div class="arrow-left"></div>
+            <div class="arrow-right"></div>
 
 
           
@@ -267,7 +255,10 @@
   </section>
 
 
-  
+
+
+<script src="source/libs/jQuery/jquery-3.7.1.min.js"></script>
+<script src="source/libs/owlcarusel/owl.carousel.min.js"></script>
 <script src="app.js"></script>
 </body>
 
