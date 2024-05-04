@@ -562,10 +562,7 @@ a {
   right: 15px;
   z-index: 15;
 }
-.owl-carousel {
-}
-.slider-item {
-}
+
 .slider-item-title {
   color: #282938;
   font-size: 32px;
@@ -633,12 +630,15 @@ a {
 }
 .questions {margin-left: 27px;
 }
+
+
 .faq-question {font-size: 24px;
   font-weight: 500;
   line-height: 36px;
   cursor: pointer;
   
 }
+
 .faq-question-number {margin-right: 59px;
   color: #2405F2;
   font-size: 24px;
@@ -646,6 +646,7 @@ a {
   line-height: 36px;
   font-style: normal;
 }
+
 .faq-plus-sign {
   display: block;
   font-size: 32px;
@@ -677,4 +678,127 @@ margin-top: 16px;
   border: 1px solid #ECECF1;
   width: 843px;
   margin: 32px 0;
+}
+/* +++++++++++++++++++++++Contact form++++++++++++++++++++++++++++++++++++ */
+.contact-form {
+
+ 
+
+  margin-top: 128px;
+  margin-bottom: 128px;
+}
+
+.hero-convert {
+  height: 691px;
+  width: 1280px;
+  background-color: #aeacbd;
+  background-image: url(/source/img/backGr.png);
+  background-repeat: no-repeat;
+  display: flex;
+}
+.convert-block {width:656px;
+}
+
+.convert-heading {
+  padding-top: 96px;
+  margin-left: 96px;
+  width: 464px;
+}
+.head-title {
+  font-size: 54px;
+  font-weight: 600;
+  line-height: 74px;
+  color: #ffffff;
+}
+.head-text {
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 28px;
+  margin-top: 30px;
+}
+.form-block {
+  height: 691px;
+  width: 624px;
+  background-color: #1C1E53;
+
+}
+.form-block h5{
+  color: #ffffff;
+  font-size: 32px;
+  line-height: 48px;
+font-weight: 500;
+
+  margin-top: 96px;
+margin-left: 96px;
+}
+.form-block p{
+  color: #ffffff;
+  margin-left: 96px;
+  margin-top: 16px;
+  margin-bottom: 40px;
+  width: 432px;
+  font-size: 16px;
+  line-height: 28px;
+  
+
+}
+
+.form-place-holder input{
+ 
+  border: 1.5px solid hsla(0, 0%, 100%, 0.05);
+  border-radius: 8px;
+ width: 432px;
+ height: 64px;
+ margin-left: 96px;
+ margin-bottom: 16px;
+ background-color: #1C1E53;
+ color: #fff;
+ font-size: 16px;
+font-family: 'Poppins',  monospace;
+line-height: 28px;
+text-indent: 32px;
+}
+ input::placeholder{
+ 
+color: rgba(244, 246, 252, 0.50);
+font-size: 16px;
+font-family: 'Poppins',  monospace;
+line-height: 28px;
+font-weight: 300;
+}
+.form-place-holder button{
+  cursor: pointer;
+  margin-left: 96px;
+  width: 432px;
+  height: 64px;
+  border-radius: 41px;
+  background: #FCD980;
+  font-size: 18px;
+font-family: 'Poppins',  monospace;
+line-height: 32px;
+font-weight: 600;
+border: none;
+color: #1B1C2B;
+margin-top: 23px;
+
+}
+.form-block a{
+  
+  display: block;
+  margin-left: 190px;
+  margin-top: 28px;
+  position: relative;
+  font-size: 18px;
+  line-height: 32px;
+
+}
+.form-block a::after {
+  position: absolute;
+  content: '';
+  width: 25px;
+  height: 12px;
+  background-image: url(/source/img/Arrow\ white.png);
+ bottom: 10px;
+    left: 193px;
+  
 }
