@@ -802,3 +802,73 @@ margin-top: 23px;
     left: 193px;
   
 }
+/* +++++++++++++++++++++++our blog+++++++++++++++++++++++++++++++ */
+.our-blog {
+  margin-bottom: 128px;
+}
+
+.hero-blog {
+  
+}
+.our-blog-title {
+  color: #282938;
+  font-size: 48px;
+  line-height: 64px;
+  font-weight: 600;
+}
+.our-blog-blocks {
+  margin-top: 64px;
+  display: flex;
+  justify-content: space-between;
+
+}
+.our-blog-block {
+  width: 405px;
+}
+.our-blog-date {color: hsla(236, 17%, 19%, 0.7);
+font-size: 16px;
+line-height: 28px;
+margin-top: 40px;
+margin-bottom: 16px;
+font-weight: 500;
+}
+.our-blog-info {
+  color: #282938;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 500;
+  }
+
+.our-blog-text {
+  color: hsla(236, 17%, 19%, 0.7);
+  font-size: 16px;
+line-height: 28px;
+font-weight: 400;
+margin-top: 16px;
+margin-bottom: 32px;
+}
+.our-blog-block button{
+  position: relative;
+  height: 28px;
+  width: 123px;
+  border: none;
+  background-color: white;
+
+color: #282938;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 500;
+  text-align: left;
+  font-family: 'Poppins';
+
+  cursor: pointer;                         
+}
+button::after {
+  position: absolute;
+  content: '';
+  width: 25px;
+  height: 12px;
+  background-image: url(/source/img/Arrow\ blue282938.png);
+  bottom: 8px;
+  left: 98px;
+  }
