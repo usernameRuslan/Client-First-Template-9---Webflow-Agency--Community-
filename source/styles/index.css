@@ -816,8 +816,6 @@ input::placeholder {
   margin-bottom: 128px;
 }
 
-.hero-blog {
-}
 .our-blog-title {
   color: #282938;
   font-size: 48px;
@@ -879,4 +877,99 @@ input::placeholder {
   background-image: url(/source/img/Arrow\ blue282938.png);
   bottom: 8px;
   left: 98px;
+}
+/* ++++++++++++++++++++FOOTER++++++++++++++++++++++++++++++++++++ */
+.footer {
+  background-color:  #1C1E53 ;
+  padding-top: 96px;
+}
+
+.footer-inner {
+  width: 1058px;
+  height: 206px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-left img{
+  margin-top: 8px;
+  margin-bottom: 23px;
+}
+.footer-info {
+  font-size: 16px;
+  line-height: 28px;
+  color: hsla(0, 0%, 100%, 0.8);
+  width: 399px;
+  font-weight: 500;
+}
+.footer-right h2{
+  color: white;
+  font-size: 48px;
+  line-height: 64px;
+  font-weight: 600;
+}
+
+.footer-title-text {
+  width: 399px;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+  margin-top: 14px;
+  margin-bottom: 28px;
+  color: hsla(0, 0%, 100%, 0.8);
+}
+
+.footer-social{
+  width: 144px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.footer-contact-info {
+  width: 517px;
+height: 95px;
+display: flex;
+background: #FCD980;
+align-items: center;
+
+}
+.footer-contact-info-block{
+  margin-left: 37px;
+}
+.footer-contact-info-head{
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 32px;
+color: #282938;
+}
+.footer-contact-info-text{
+  color: hsla(236, 17%, 19%, 0.8);
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+}
+.footer-top {
+  height: 92px;  
+  background: white;    
+ 
+}
+.footer-con{
+  display: flex;
+  justify-content: space-between;
+  height: 92px;
+  align-items: center;
+}
+.footer-top-copy {width: 241px;
+  
+  color: #282938;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+
+}
+.footer-ul li a{  color: #282938;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+}
+.active {
 }
